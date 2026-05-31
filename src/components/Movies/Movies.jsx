@@ -20,7 +20,7 @@ function Movies({
       <section className="movies__intro" aria-labelledby="movies-title">
         <p className="movies__eyebrow">Resultados</p>
         <h1 className="movies__title" id="movies-title">Busca en el catalogo de TMDb</h1>
-        <SearchForm initialValue={query} onSearch={onSearch} />
+        <SearchForm key={query} initialValue={query} onSearch={onSearch} />
       </section>
 
       <section className="results" aria-live="polite">
