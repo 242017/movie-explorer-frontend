@@ -2,6 +2,10 @@
 
 Aplicacion React para buscar peliculas con la API de TMDb.
 
+## Deploy
+
+https://musical-longma-ef270f.netlify.app
+
 ## Funcionalidad
 
 - Pagina principal con descripcion del proyecto.
